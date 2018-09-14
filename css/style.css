@@ -966,8 +966,9 @@ ul.modal-nav-main-menu {
 
 .dest-height{height: 911px!important;}
 
-.input-file{display:none;}
-
+.input-file{display:none!important;}
+.input-file-trigger:focus{outline:0px!important;}
+.input-file-trigger{cursor:pointer!important; font-size:20px;}
 
 /* styles de base si JS est activé */
 .js .input-file-container {
